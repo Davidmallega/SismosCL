@@ -1,0 +1,21 @@
+{
+  "name": "sismoscl-backend",
+  "version": "1.0.0",
+  "description": "Dashboard de sismos de Chile sobre BigQuery",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "ingestar": "node scripts/ingestar.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2"
+  }
+}
