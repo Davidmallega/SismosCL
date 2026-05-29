@@ -2,8 +2,6 @@
 
 Dashboard fullstack desplegado en producción. Frontend React que visualiza ~35 años de actividad sísmica en Chile consultando Google BigQuery en tiempo real mediante queries SQL analíticas.
 
-**Demo en vivo:** https://sismoscl-api-954810838081.us-central1.run.app/health
-
 ---
 
 ## Vista previa
